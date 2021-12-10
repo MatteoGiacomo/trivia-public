@@ -1,0 +1,31 @@
+.wrapper {
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+}
+
+.wrapper > input {
+  margin-right: 8px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.success {
+  border: 2px solid #81b29a;
+  animation: bordergrow 0.1s linear;
+}
+
+.failure {
+  border: 2px solid #e07a5f;
+  animation: bordergrow 0.1s linear;
+}
+
+@keyframes bordergrow {
+  from {
+    border-width: 0;
+  }
+  to {
+    border-width: 2px;
+  }
+}

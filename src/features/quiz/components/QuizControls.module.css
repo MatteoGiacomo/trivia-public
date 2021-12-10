@@ -1,0 +1,24 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.control:last-child {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .controls {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px;
+  }
+
+  .control:last-child {
+    margin-top: 0;
+  }
+}

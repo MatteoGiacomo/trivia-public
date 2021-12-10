@@ -1,0 +1,19 @@
+.row {
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+
+.rowElement:nth-child(3) {
+  justify-self: center;
+}
+
+.rowElement:last-child {
+  justify-self: end;
+}
+
+.userName {
+  text-transform: capitalize;
+  padding-left: 8px;
+  border-left: 1px solid var(--primary);
+}

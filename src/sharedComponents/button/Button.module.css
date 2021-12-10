@@ -1,0 +1,32 @@
+.base {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.primary {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--font-secondary);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.secondary {
+  color: var(--primary);
+  padding: 0;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+.primary.disabled {
+  border: 1px solid lightgray;
+  background-color: lightgray;
+}
+

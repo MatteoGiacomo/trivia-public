@@ -1,0 +1,26 @@
+.container {
+  padding: 15px;
+  margin: 0;
+  border: none;
+}
+
+.container h2 {
+  font-size: 1.3rem;
+}
+
+.label {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #107e7d;
+  color: var(--font-secondary);
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    padding: 30px;
+  }
+}

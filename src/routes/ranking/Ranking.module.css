@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 15px;
+  align-items: center;
+}
+
+.main > section {
+  width: 100%;
+  max-width: 700px;
+  min-height: 30vh;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 2px solid var(--primary);
+}
+
+.link {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}

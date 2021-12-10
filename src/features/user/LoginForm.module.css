@@ -1,0 +1,58 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(198, 15, 123, 0.5);
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: 6px solid var(--primary); 
+  padding: 15px 15px 25px;
+  background-color: var(--default-bg-color);
+  position: relative;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.inputWrapper input {
+  border: 1px solid #7d1538;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.inputWrapper p {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.closeButton {
+  align-self: flex-end;
+}
+
+.changeTypeButton {
+  margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .form {
+    padding: 30px 30px 40px;
+  }
+}

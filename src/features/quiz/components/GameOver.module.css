@@ -1,0 +1,16 @@
+.wrapper {
+  text-align: center;
+}
+
+.wrapper h2,
+.wrapper ul {
+  margin-top: 40px;
+}
+
+.wrapper li {
+  margin-bottom: 20px;
+}
+
+.wrapper li:last-child {
+  margin-bottom: 0;
+}
